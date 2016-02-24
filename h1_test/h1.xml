@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///G:/o3.xsd">
+
+	<session-factory>
+		<!-- <mapping class="com.model.Teacher" />
+		<mapping class="com.model.Student" /> -->
+		<mapping class="com.model.Person"/>
+		<property name="showsql">true</property>
+	</session-factory>
+	
+</hibernate-configuration>
